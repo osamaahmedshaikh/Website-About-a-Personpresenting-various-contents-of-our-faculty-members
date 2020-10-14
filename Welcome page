@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="welcome.css" />
+</head>
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <a href="index.html">
+        <img src="julie.png" alt="Paris" style="width:50%;">
+        </a>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <div class="navbar">
+                <a class="active" href="welcome.html"><i class="fa fa-fw fa-home"></i> Home</a>
+                <a href="pub.html"><i class="fa fa-fw fa-envelope"></i>Publication</a>
+                <a href="press.html"><i class="fa fa-fw fa fa-user-secret"></i>Press</a>
+                <a href="research.html"><i class="fa fa-fw fa fa-building"></i>Research Interest and Programs</a>
+                <a href="teaching.html"><i class="fa fa-fw fa-user"></i>Teaching</a>
+                <a href="group.html"><i class="fa fa-fw fa fa-university"></i>Research Group</a>
+                <a href="contract.html"><i class="fa fa-fw fa fa-address-book"></i>Contact</a>
+            </div><br /><br />
+            <img src="welcome.jpg" alt="Paris" style="width:50%;">
+            <center>
+                <h2 style="font-family: 'Times New Roman', Times, serif;font-size:30px"><b>Bio</b></h2>
+                <p style="font-family: 'Times New Roman', Times, serif;font-size: 15px;">I am an associate professor in the Faculty of Business and Information Technology (FBIT) at Ontario Tech University. I am a member of the Graduate Faculty for both FBIT and the Department of Computer Science. My research is in the area of human factors and computer security, with a focus on user authentication.</p>
+                <div class="row">
+                    <div class="leftcolumn">
+                        <div class="card">
+                            <h2 style="font-family: 'Times New Roman', Times, serif;font-size:30px"><b>News</b></h2>
+                            <h3 style="font-family: 'Times New Roman', Times, serif;font-size:24px;">Julie Thorpe</h3>
+                            <img src="news1.png" alt="Girl in a jacket" width="388" height="400">
+                            <p style="font-family: 'Times New Roman', Times, serif;">
+                                Dr. Thorpe completed her Bachelor of Computer Science with First Class Honours at the Faculty of Computer Science at Dalhousie University in Halifax; then gained six years of invaluable industry experience as a software systems analyst before earning her Doctorate of Philosophy in Computer Science from Ottawa’s Carleton University in 2008. If you would like you read news more related to Ontario tech University visit this<a href="https://news.ontariotechu.ca/" style="text-decoration: none; color:blue;"> "Website".</a>
+                            </p>
+                            <meta name="viewport" content="width=device-width, initial-scale=1">
+                            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+                            <meta name="viewport" content="width=device-width, initial-scale=1">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2 style="font-family: 'Times New Roman', Times, serif;">The Security AI Networks Lab</h2>
+                                        <p style="font-family: 'Times New Roman', Times, serif;">Thursday, Jan 23, 2020</p>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <p style="font-family: 'Times New Roman', Times, serif;">Ying Zhu, Amirali Abari, and I founded the Security, Artificial Intelligence, and Networks Lab (SAIN Lab) in 2017. The SAIN Lab performs applied and, multidisciplinary.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2 style="font-family: 'Times New Roman', Times, serif;">Congratulations to Alaadin Addas</h2>
+                                        <p style="font-family: 'Times New Roman', Times, serif;">Friday, Jul 27, 2018</p>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <p style="font-family: 'Times New Roman', Times, serif;">Congratulations to Alaadin Addas for successfully defending his MSc thesis on "Systems and Models for Secure Fallback Authentication"!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2 style="font-family: 'Times New Roman', Times, serif;">ITSRG Summer 2018</h2>
+                                        <p style="font-family: 'Times New Roman', Times, serif;">Wednesday, May 23, 2018</p>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <p style="font-family: 'Times New Roman', Times, serif;">Reading Group Schedule for ITSRG posted for Summer 2018</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2 style="font-family: 'Times New Roman', Times, serif;">Congratulations to Zeinab Joudaki</h2>
+                                        <p style="font-family: 'Times New Roman', Times, serif;">Friday, Dec 15, 2017</p>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <p style="font-family: 'Times New Roman', Times, serif;">
+                                            Congratulations to Zeinab Joudaki for successfully defending her PhD thesis on "Towards Implicit Learning of System-Assigned Authentication Tokens"!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <meta name="viewport" content="width=device-width, initial-scale=1">
+                            <button onclick="topFunction()" id="myBtn" title="Go to top">&#11165;</button>
+                            <script>
+                                var mybutton = document.getElementById("myBtn");
+                                window.onscroll = function () { scrollFunction() };
+                                function scrollFunction() {
+                                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                                        mybutton.style.display = "block";
+                                    } else {
+                                        mybutton.style.display = "none";
+                                    }
+                                }
+                                function topFunction() {
+                                    document.body.scrollTop = 0;
+                                    document.documentElement.scrollTop = 0;
+                                }
+                            </script>
+                            <a href="https://ontariotechu.ca/">
+                                <img src="ontario-tech-university.jpg" alt="Forest" width="400" height="200" class="center">
+                            </a>
+                            <meta name="viewport" content="width=device-width, initial-scale=1">
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <h4>If you are interest to know more about me, follow me on social media.</h4>
+                            <a href="https://www.facebook.com/profile.php?id=100009194350162" class="fa fa-facebook"></a>
+                            <a href="https://scholar.google.ca/citations?user=Y2AMRwEAAAAJ&hl=en" class="fa fa-google"></a>
+                            <a href="https://www.linkedin.com/in/julie-thorpe-949aa91/" class="fa fa-linkedin"></a>
+</center>
+        <div class="tcontainer">
+            <div class="ticker-wrap">
+                <div class="ticker-move">
+                    <div style="font-family: 'Times New Roman', Times, serif;font-size: 25px;" class="ticker-item">𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐨𝐮𝐫 𝐖𝐞𝐛𝐬𝐢𝐭𝐞!</div>
+                    <div style="font-family: 'Times New Roman', Times, serif;font-size: 25px;" class="ticker-item">𝐓𝐡𝐞 𝐜𝐫𝐞𝐚𝐭𝐨𝐫𝐬 𝐨𝐟 𝐭𝐡𝐢𝐬 𝐰𝐞𝐛𝐬𝐢𝐭𝐞 𝐚𝐫𝐞 𝐎𝐬𝐚𝐦𝐚 𝐒𝐡𝐚𝐢𝐤𝐡, 𝐔𝐦𝐞𝐫 𝐒𝐡𝐚𝐡𝐢𝐝, 𝐒𝐮𝐥𝐚𝐦𝐚𝐧 𝐒𝐡𝐚𝐡, 𝐚𝐧𝐝 𝐌𝐨𝐡𝐚𝐦𝐦𝐞𝐝 𝐀𝐡𝐦𝐞𝐝 𝐌𝐚𝐣𝐞𝐞𝐝.</div>
+                    <div style="font-family: 'Times New Roman', Times, serif;font-size: 25px;" class="ticker-item">𝐓𝐡𝐢𝐬 𝐖𝐞𝐛𝐩𝐚𝐠𝐞 𝐡𝐚𝐬 𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭𝐬 &#169;.</div>
+                    <div style="font-family: 'Times New Roman', Times, serif;font-size: 25px;" class="ticker-item">𝐈 𝐡𝐨𝐩𝐞 𝐲𝐨𝐮 𝐞𝐧𝐣𝐨𝐲 𝐨𝐮𝐫 𝐰𝐞𝐛𝐬𝐢𝐭𝐞 𝐚𝐧𝐝 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐚𝐠𝐚𝐢𝐧 𝐟𝐨𝐫 𝐯𝐢𝐬𝐢𝐭𝐢𝐧𝐠 𝐨𝐮𝐫 𝐰𝐞𝐛𝐬𝐢𝐭𝐞.<span>&#128102;&#127995;</span></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
