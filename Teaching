@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="teaching.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div id="navbar">
+        <a href="index.html" id="logo">𝐉𝐮𝐥𝐢𝐞 𝐓𝐡𝐨𝐫𝐩𝐞 &#169;</a>
+        <div id="navbar-right">
+            <a href="welcome.html"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="pub.html"><i class="fa fa-fw fa-envelope"></i>Publication</a>
+            <a href="press.html"><i class="fa fa-fw fa fa-user-secret"></i>Press</a>
+            <a href="research.html"><i class="fa fa-fw fa fa-building"></i>Research Interest and Programs</a>
+            <a class="active"href="teaching.html"><i class="fa fa-fw fa-user"></i>Teaching</a>
+            <a href="group.html"><i class="fa fa-fw fa fa-university"></i>Research Group</a>
+            <a href="contract.html"><i class="fa fa-fw fa fa-address-book"></i>Contact</a>
+        </div>
+    </div>
+    <<center>
+         <div class="topsers">
+             <p style="font-size: 50px; color: black;font-family: 'Times New Roman', Times, serif;"><b>Teaching</b></p>
+             <img src="news1.png" alt="Girl in a jacket" width="388" height="400">
+
+             <meta name="viewport" content="width=device-width, initial-scale=1">
+             <h2 style="font-family: 'Times New Roman', Times, serif;font-size:35px;"><b>Courses</b></h2>
+             <table>
+                 <tr>
+                     <th>Course Name</th>
+                     <th>Fall,Winter,and Summer</th>
+                     <th>Course CRN/Graduate or Undergraduate</th>
+
+                 </tr>
+                 <tr>
+                     <td>IT Security Policies and Procedures</td>
+                     <td>Fall</td>
+                     <td>INFR 4680, 4th Year Undergraduate Course</td>
+
+                 </tr>
+                 <tr>
+                     <td>Security Policies and Risk Management</td>
+                     <td>Fall</td>
+                     <td>MITS 5600, Graduate Course</td>
+
+                 </tr>
+                 <tr>
+                     <td>Operating System Security</td>
+                     <td>Winter</td>
+                     <td>INFR 3610, 3rd Year Undergraduate Course</td>
+
+                 </tr>
+                 <tr>
+                     <td>Malware and Software Security</td>
+                     <td>Winter</td>
+                     <td>INFR 4670U, 4th Year Undergraduate Course</td>
+
+                 </tr>
+                 <tr>
+                     <td>Operating System Security</td>
+                     <td>Fall</td>
+                     <td>MITS 5300, Graduate Course</td>
+
+                 </tr>
+             </table>
+         </div>
+    </center>
+
+            <center>
+                <a href="https://ontariotechu.ca/">
+                    <img src="ontario-tech-university.jpg" alt="Forest" width="400" height="200" class="center">
+                </a>
+            </center>
+            <script>
+                // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+                window.onscroll = function () {
+                    scrollFunction()
+                }
+                function scrollFunction() {
+                    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                        document.getElementById("navbar").style.padding = "30px 10px";
+                        document.getElementById("logo").style.fontSize = "25px";
+                    }
+                    else {
+                        document.getElementById("navbar").style.padding = "80px 10px";
+                        document.getElementById("logo").style.fontSize = "35px";
+                    }
+                }
+            </script>
+    <div class="tcontainer">
+        <div class="ticker-wrap">
+            <div class="ticker-move">
+                <div style="font-family: 'Times New Roman', Times, serif;font-size: 25px;" class="ticker-item">𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐨𝐮𝐫 𝐖𝐞𝐛𝐬𝐢𝐭𝐞!</div>
+                <div style="font-family: 'Times New Roman', Times, serif;font-size: 25px;" class="ticker-item">𝐓𝐡𝐞 𝐜𝐫𝐞𝐚𝐭𝐨𝐫𝐬 𝐨𝐟 𝐭𝐡𝐢𝐬 𝐰𝐞𝐛𝐬𝐢𝐭𝐞 𝐚𝐫𝐞 𝐎𝐬𝐚𝐦𝐚 𝐒𝐡𝐚𝐢𝐤𝐡, 𝐔𝐦𝐞𝐫 𝐒𝐡𝐚𝐡𝐢𝐝, 𝐒𝐮𝐥𝐚𝐦𝐚𝐧 𝐒𝐡𝐚𝐡, 𝐚𝐧𝐝 𝐌𝐨𝐡𝐚𝐦𝐦𝐞𝐝 𝐀𝐡𝐦𝐞𝐝 𝐌𝐚𝐣𝐞𝐞𝐝.</div>
+                <div style="font-family: 'Times New Roman', Times, serif;font-size: 25px;" class="ticker-item">𝐓𝐡𝐢𝐬 𝐖𝐞𝐛𝐩𝐚𝐠𝐞 𝐡𝐚𝐬 𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭𝐬 &#169;.</div>
+                <div style="font-family: 'Times New Roman', Times, serif;font-size: 25px;" class="ticker-item">𝐈 𝐡𝐨𝐩𝐞 𝐲𝐨𝐮 𝐞𝐧𝐣𝐨𝐲 𝐨𝐮𝐫 𝐰𝐞𝐛𝐬𝐢𝐭𝐞 𝐚𝐧𝐝 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐚𝐠𝐚𝐢𝐧 𝐟𝐨𝐫 𝐯𝐢𝐬𝐢𝐭𝐢𝐧𝐠 𝐨𝐮𝐫 𝐰𝐞𝐛𝐬𝐢𝐭𝐞.<span>&#128102;&#127995;</span></div>
+            </div>
+        </div>
+    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">&#11165;</button>
+        <script>
+            var mybutton = document.getElementById("myBtn");
+            window.onscroll = function () { scrollFunction() };
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        </body>
+</html>
